@@ -14,7 +14,7 @@ services:
       - key: AUTHENTICATION_API_KEY
         sync: false            # você preenche manualmente no painel depois
       - key: DATABASE_ENABLED
-        value: "true"
+        value: "false"
       - key: DATABASE_PROVIDER
         value: postgresql
       - key: DATABASE_CONNECTION_URI
@@ -27,8 +27,3 @@ services:
         value: "false"
       - key: CACHE_LOCAL_ENABLED
         value: "true"
-
-databases:
-  - name: evolution-db
-    plan: free
-    region: oregon

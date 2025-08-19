@@ -1,5 +1,5 @@
 # Usa Node.js LTS
-FROM node:18
+FROM node:20
 
 # Define diretório de trabalho
 WORKDIR /app
@@ -21,3 +21,4 @@ EXPOSE 8080
 
 # Comando para iniciar
 CMD ["npm", "start"]
+
